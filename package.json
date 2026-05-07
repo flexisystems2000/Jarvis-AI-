@@ -1,0 +1,32 @@
+{
+  "name": "jarvis-ai-bot",
+  "version": "1.0.0",
+  "description": "JARVIS AI powered by Flexi edTech Digital Academy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "jarvis",
+    "ai",
+    "gemini"
+  ],
+  "author": "Flexi edTech Digital Academy",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "axios": "^1.7.0",
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "dotenv": "^16.4.5",
+    "link-preview-js": "^3.0.0",
+    "mongoose": "^8.5.0",
+    "@hapi/boom": "^10.0.1"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
